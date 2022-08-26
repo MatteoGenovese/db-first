@@ -1,4 +1,13 @@
-id
-chilometraggio
-tipo_di_cambio
-anno_di_immatricolazione
+id                              -int        -
+chilometraggio                  -int        -
+tipo_di_cambio                  -stringa    -
+anno_di_immatricolazione        -int        -
+tipo_carburante                 -stringa    -
+potenza                         -int        -
+colore_carrozzeria              -stringa    -
+tipo_di_veicolo                 -stringa    -
+numero_porte                    -int        -
+quantita_emissioni_co2          -int        -
+equipaggiamento                 -stringa    -
+colore_interni                  -stringa    -
+ulteriori_descrizioni_veicolo   -stringa    -
