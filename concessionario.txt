@@ -1,19 +1,19 @@
-id                              -int        -INT            -   AUTO_INCREMENT
-casa_costruttrice               -stringa    -VARCHAR(30)    -   NOTNULL
-modello                         -stringa    -VARCHAR(30)    -   NOTNULL
-chilometraggio                  -int        -MEDIUMINT      -   NOTNULL
-tipo_di_cambio                  -stringa    -VARCHAR(13)    -   NOTNULL
-anno_di_immatricolazione        -int        -YEAR           -   NOTNULL
-tipo_carburante                 -stringa    -VARCHAR(13)    -   NOTNULL
-potenza                         -int        -SMALLINT       -   NOTNULL
-consumo                         -int        -SMALLINT       -   NOTNULL
-colore_carrozzeria              -stringa    -VARCHAR(13)    -   NOTNULL
-tipo_di_veicolo                 -stringa    -VARCHAR(13)    -   NULL
-numero_porte                    -int        -TINYINT        -   NOTNULL
-quantita_emissioni_co2          -int        -SMALLINT       -   NULL
-equipaggiamento                 -stringa    -TEXT           -   NULL
-colore_interni                  -stringa    -VARCHAR(13)    -   NOTNULL
-ulteriori_descrizioni_veicolo   -stringa    -TEXT           -   NULL
-sede_di_giacenza                -stringa    -VARCHAR(255)   -   NOTNULL
-immagine                        -stringa    -VARCHAR(255)   -   NOTNULL
-prezzo                          -int        -int            -   NOTNULL
+id                              -int        -INT            -   AUTO_INCREMENT  -   UNIQUE
+casa_costruttrice               -stringa    -VARCHAR(30)    -   NOTNULL         -   
+modello                         -stringa    -VARCHAR(30)    -   NOTNULL         -   
+chilometraggio                  -int        -MEDIUMINT      -   NOTNULL         -
+tipo_di_cambio                  -stringa    -VARCHAR(13)    -   NOTNULL         -
+anno_di_immatricolazione        -int        -YEAR           -   NOTNULL         -
+tipo_carburante                 -stringa    -VARCHAR(13)    -   NOTNULL         -
+potenza                         -int        -SMALLINT       -   NOTNULL         -
+consumo                         -int        -SMALLINT       -   NOTNULL         -
+colore_carrozzeria              -stringa    -VARCHAR(13)    -   NOTNULL         -   
+tipo_di_veicolo                 -stringa    -VARCHAR(13)    -   NULL            -
+numero_porte                    -int        -TINYINT        -   NOTNULL         -
+quantita_emissioni_co2          -int        -SMALLINT       -   NULL            -
+equipaggiamento                 -stringa    -TEXT           -   NULL            -
+colore_interni                  -stringa    -VARCHAR(13)    -   NOTNULL         -
+ulteriori_descrizioni_veicolo   -stringa    -TEXT           -   NULL            -
+sede_di_giacenza                -stringa    -VARCHAR(255)   -   NOTNULL         -
+immagine                        -stringa    -VARCHAR(255)   -   NOTNULL         -
+prezzo                          -int        -int            -   NOTNULL         -
