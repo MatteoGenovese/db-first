@@ -1,0 +1,4 @@
+id
+chilometraggio
+tipo_di_cambio
+anno_di_immatricolazione
